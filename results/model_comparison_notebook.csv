@@ -1,0 +1,3 @@
+model,test_loss,test_accuracy_percent,weighted_precision,weighted_recall,weighted_f1,best_epoch,best_validation_accuracy_percent
+With Augmentation,0.6943032653808594,75.72,0.7561957837348781,0.7572,0.7540138220241943,5,76.16
+Without Augmentation,0.6164602149963379,78.7,0.7917365340914361,0.787,0.785792900197194,5,78.54

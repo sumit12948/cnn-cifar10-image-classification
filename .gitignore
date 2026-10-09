@@ -23,8 +23,11 @@ __pycache__/
 pip-cache/
 pip-tmp/
 *.log
+.streamlit/credentials.toml
+.streamlit/secrets.toml
 
 # Operating system files
 Thumbs.db
 .DS_Store
-
+# Extracted dataset folder
+dataset_source/

@@ -126,13 +126,23 @@ cd D:\CNN-CIFAR10-Project
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 2. Launch Interactive Jupyter Notebook
+### 2. Launch Interactive Streamlit Web Application
+Run the modern dark-themed web application to test real-time image classifications:
+```powershell
+streamlit run app.py
+```
+- Automatically opens `http://localhost:8501` in your browser.
+- Upload any JPG, JPEG, or PNG image, or select from preloaded CIFAR-10 sample images.
+- Displays predicted class, top confidence %, 32×32 pixel model view, and full 10-class probability distributions with interactive charts.
+
+### 3. Launch Interactive Jupyter Notebook
 ```powershell
 jupyter notebook CNN_CIFAR10.ipynb
 ```
 Select the **Python 3 (ipykernel)** kernel. The notebook contains all 18 sections with interactive Markdown explanations and pre-rendered outputs.
 
-### 3. Running Smoke Tests or Standalone Scripts
+### 4. Running Verification & Standalone Scripts
+- **Web App Pipeline Test**: `python scripts/test_app.py`
 - **Smoke Tests**: `python scripts/smoke_test.py`
 - **Validation Suite**: `python scripts/validate_project.py`
 

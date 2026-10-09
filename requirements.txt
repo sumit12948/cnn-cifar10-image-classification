@@ -10,7 +10,8 @@ pandas>=3.0.0
 matplotlib>=3.10.0
 scikit-learn>=1.9.0
 
-# Interactive Notebook Environment
+# Interactive Notebook & Web Application Environment
 notebook>=7.6.0
 ipykernel>=7.4.0
+streamlit>=1.40.0
 
