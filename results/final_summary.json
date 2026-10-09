@@ -1,0 +1,18 @@
+{
+  "target_accuracy": 85.0,
+  "augmented_model": {
+    "best_val_accuracy": 87.14,
+    "final_test_accuracy": 87.21,
+    "final_test_loss": 0.381,
+    "checkpoint": "D:\\CNN-CIFAR10-Project\\results\\best_model_augmented.pth",
+    "target_achieved": true
+  },
+  "baseline_model": {
+    "best_val_accuracy": 87.32,
+    "final_test_accuracy": 85.76,
+    "final_test_loss": 0.4442,
+    "checkpoint": "D:\\CNN-CIFAR10-Project\\results\\best_model_baseline.pth",
+    "target_achieved": true
+  },
+  "augmentation_gain_percentage": 1.45
+}

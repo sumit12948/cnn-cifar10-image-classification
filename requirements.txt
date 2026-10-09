@@ -1,0 +1,16 @@
+# Core Deep Learning Framework
+torch>=2.14.0
+torchvision>=0.29.0
+
+# Numerical and Data Analysis
+numpy>=2.0.0
+pandas>=3.0.0
+
+# Visualization and Evaluation
+matplotlib>=3.10.0
+scikit-learn>=1.9.0
+
+# Interactive Notebook Environment
+notebook>=7.6.0
+ipykernel>=7.4.0
+

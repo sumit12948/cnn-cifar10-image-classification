@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# CIFAR-10 raw datasets
+data/
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.onnx
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary directories and caches
+pip-cache/
+pip-tmp/
+*.log
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
